@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация изображения</title>
+    <style>
+        img {
+            border-radius: 10px; /* Округлые углы */
+            border: 3px solid #333; /* Тень вокруг изображения */
+            max-width: 100%; /* Адаптивность, чтобы изображение не выходило за пределы экрана */
+        }
+    </style>
+</head>
+<body>
+    <h1>Стилизованное изображение</h1>
+    
+    <!-- Вставляем изображение -->
+    <img src="myphoto.jpg" alt="Мое стилизованное изображение">
+    
+    <p>Это изображение стилизовано с помощью CSS.</p>
+</body>
+</html>
